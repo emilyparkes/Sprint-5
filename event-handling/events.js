@@ -11,7 +11,7 @@ function start () {
   // Your turn! Create a new function called `two`, then call it from here.
   two()
   three ()
-  four (0)
+  four ()
 }
 
 function one () {
@@ -45,6 +45,18 @@ function four () {
 // Changes the background color of event's target
 function makeBlue (evt) {
   evt.target.style.backgroundColor = 'blue'
+}
+
+function makeGreen (evt) {
+  evt.target.style.backgroundColor = 'green'
+}
+
+function makeOrange (evt) {
+  evt.target.style.backgroundColor = 'orange'
+}
+
+function makePink (evt) {
+  evt.target.style.backgroundColor = 'pink'
 }
 
 function makeWhite (evt) {
