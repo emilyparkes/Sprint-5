@@ -49,9 +49,9 @@ function updateCounts () {
       totals.blue++
     } else if (dots[i].classList.contains('green')){
       totals.green++
-    } else (dots[i].classList.contains('invisible')) {
+    } else if (dots[i].classList.contains('invisible')) {
       totals.invsible++
-    }  
+    }
   }
   // Once you've done the counting, this function will update the display
   displayTotals(totals)
